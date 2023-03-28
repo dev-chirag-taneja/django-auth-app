@@ -1,5 +1,8 @@
 <h1>Django Authentication App</h1>
 
+[![Python Version](https://img.shields.io/badge/python-3.10-blue.svg)](https://python.org)
+[![Django Version](https://img.shields.io/badge/django-3.2.12-brightgreen.svg)](https://djangoproject.com)
+
 ## Features
 ```
 - Register, Login, Logout
