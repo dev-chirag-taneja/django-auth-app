@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Home Page
+{% endblock title %}
+
+{% block content %}
+<div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+  <div class="my-3 p-4 border bg-light">
+  {% include 'alerts.html' %}
+  <div class="text-center mt-5">
+    <h1>Hello {{ user.username }}!</h1>  
+    <br>
+    <h4>Your email is {{user.email}}</h4>
+    <br>
+    <a class="btn btn-dark" href="{% url 'logout' %}">Logout</a>
+    <br>
+    <br>
+    <a class="btn btn-dark" href="{% url 'change_password' %}">Change Password</a>
+  </div>
+  <div>
+<div>
+{% endblock content %}
