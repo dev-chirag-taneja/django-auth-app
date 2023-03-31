@@ -26,7 +26,7 @@
 ## Installation
 ```
 # Clone the Repo
-- git clone 
+- git clone https://github.com/dev-chirag-taneja/django-auth-app.git
 
 # Go to directory
 - cd django-auth-app
@@ -44,6 +44,19 @@
 - Rename env.example file to .env
 - Put your credentials.
 
+SECRET_KEY=
+DEBUG=
+EMAIL_HOST=
+EMAIL_USE_TLS=
+EMAIL_PORT=
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+
 # Run the server
 - python manage.py runserver
 ```
+
+--- 
+
+##
+<p align="center">Made with ❤️ and Python</p>
