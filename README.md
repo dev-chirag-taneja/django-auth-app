@@ -58,5 +58,4 @@ EMAIL_HOST_PASSWORD=
 
 --- 
 
-##
 <p align="center">Made with ❤️ and Python</p>
