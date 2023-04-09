@@ -52,6 +52,12 @@ EMAIL_PORT=
 EMAIL_HOST_USER=
 EMAIL_HOST_PASSWORD=
 
+# Make migrations
+- python manage.py migrate
+
+# Create superuser
+- python manage.py createsuperuser
+
 # Run the server
 - python manage.py runserver
 ```
